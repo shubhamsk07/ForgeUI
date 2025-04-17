@@ -840,7 +840,35 @@
       color: var(--accent-color);
     }
   }
+   /*Responsive  */
+@media (max-width: 640px) {
+    .sm\:text-black {
+        color: black;
+    }
+    .sm\:bg-gray-100 {
+        background-color: #f7fafc;
+    }
+}
 
+/* Medium screens (min-width: 641px and max-width: 1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .md\:text-blue-500 {
+        color: #3b82f6;
+    }
+    .md\:bg-gray-200 {
+        background-color: #e5e7eb;
+    }
+}
+
+/* Large screens (min-width: 1025px) */
+@media (min-width: 1025px) {
+    .lg\:text-red-600 {
+        color: #dc2626;
+    }
+    .lg\:bg-gray-300 {
+        background-color: #d1d5db;
+    }
+}
   /* ============ Components ============ */
   .btn {
     display: inline-block;
